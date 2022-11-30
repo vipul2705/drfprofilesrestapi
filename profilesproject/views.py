@@ -1,3 +1,7 @@
 from django.http import HttpResponse
+
+
+
+
 def home(request):
-    return HttpResponse("welcome to DRFRESTAPI")
+    return HttpResponse("Welcome to DRF REST API")
